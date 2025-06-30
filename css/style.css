@@ -13,12 +13,18 @@ h1, button {
     text-transform: uppercase;
 }
 
+/* a {
+    text-decoration: none;
+    list-style-type: none;
+} */
+
 header{
     background-image: url("../images/hero-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     
 }
+
 
 
 
