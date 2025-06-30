@@ -1,0 +1,24 @@
+html {
+    font-family: "Karla", "Lato", sans-serif;
+}
+
+/* Headings and nav - Lato */
+/* Body text and buttons - Karla */
+
+h1, h2, h3, nav>* {
+    font-family: "Lato";
+}
+
+h1, button { 
+    text-transform: uppercase;
+}
+
+header{
+    background-image: url("../images/hero-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
