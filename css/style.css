@@ -9,7 +9,7 @@ h1, h2, h3, nav>* {
     font-family: "Lato";
 }
 
-h1, button { 
+h1, button, span { 
     text-transform: uppercase;
 }
 
@@ -19,12 +19,28 @@ h1, button {
 } */
 
 header{
-    background-image: url("../images/hero-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    color: #ffff; 
+    display: block;
+    background-size:cover;
+    height: 496px;
+    /* position: relative */
+
 }
 
+.nav-bar{
 
+}
 
+.hero {
+    text-align: center;
+    height: 100%;
+}
 
+.banner-img {
+    filter: brightness(50%)
+
+}
+
+.nav-bar {
+    /* position: absolute */
+}
