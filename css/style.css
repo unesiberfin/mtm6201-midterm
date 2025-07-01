@@ -18,21 +18,20 @@ h1, button, span {
     list-style-type: none;
 } */
 
-header{
+.banner{
     color: #ffff; 
-    background-size:cover;
-    height: 496px;
-    /* position: relative */
-
-}
-
-.nav-bar{
-
-}
-
-.hero {
+    position: relative;
     text-align: center;
-    height: 100%;
+    color: white;
+}
+
+.hero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 2em 1em;
 }
 
 .banner-img {
