@@ -60,7 +60,7 @@ h1, button, span {
         width: 15em;
         }
     
-    .fa-regular .fa-bars {
+    .fa-regular {
         position: absolute;
         top: 2em;
         right: 1em;
@@ -86,7 +86,7 @@ h1, button, span {
     }
 
     .hero{
-        top: 18em;
+        top: -18em;
     }
 
     .hero h1 {
