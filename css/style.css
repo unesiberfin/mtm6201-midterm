@@ -20,10 +20,20 @@ h1, button, span {
 
 @media screen and (max-width:390px) {
     h1 {
-        font-size: 32px;
+        font-size: 2em;
     }   
     
-    
+    h2 {
+        font-size: 1.75em;
+    }
+
+    h3 {
+        font-size: 1.375em;
+    }
+
+    p {
+        font-size: 1em;
+    }
 
     .banner-img {
         position: relative;
@@ -36,32 +46,43 @@ h1, button, span {
         text-align: center;
         color: white;
     }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: solid white 1px;
+        }
+
     .logo {
         position: absolute;
         top: 2em;
         left: 1em;
-
+        width: 15em;
         }
-
+    
+    .fa-regular .fa-bars {
+        position: absolute;
+        top: 2em;
+        right: 1em;
+        width: 1em;
+        }
 
     .hero{
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 100%;
-        padding: 2em 1em;
+        width: 97%; /* 23.75em = 390px */
+        padding: 0.75em 1em;
     }
 
     .banner-img {
-        filter: brightness(75%)
+        filter: brightness(50%)
 
     }
 
-    .hamburger-menu {
+    .navigation {
         display: none;
     }
-
-    
 
     }
