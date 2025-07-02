@@ -48,7 +48,7 @@ h1, button, span {
     }
 
     .navbar {
-        display: flex;
+        display: block;
         justify-content: space-between;
         border-bottom: solid white 1px;
         }
@@ -84,5 +84,14 @@ h1, button, span {
     .navigation {
         display: none;
     }
+
+    .hero{
+        top: 18em;
+    }
+
+    .hero h1 {
+        padding-bottom: 0.25em
+    }
+
 
     }
