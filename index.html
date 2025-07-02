@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/9a731c6471.js" crossorigin="anonymous"></script>
+
     <!-- Lato will be used for all headings and navigation. Karla will be used for all body text and buttons. -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -18,20 +21,22 @@
     <header>
         <div class="banner"> 
           
-            <img src="images/hero-background.jpg" class="banner-img" alt="an-image-of-a-barista">
+           <img src="images/hero-background.jpg" class="banner-img" alt="an-image-of-a-barista">
            
             <div class="nav-bar">
-                <img src="images/my-coffee-shop-logo.svg" alt="coffee-logo">
-                <p>My Coffee House</p>
-                <nav>
-                    <ul>
-                        <li><a  class="button" href="#">ABOUT US</a></li>
-                        <li><a class="button"  href="#">MENU</a></li>
-                        <li><a class="button" href="#">LOCATIONS</a></li>
-                    </ul>
+                
+                <img class="logo"
+                src="images/my-coffee-shop-logo.svg" alt="coffee-logo">
+                
+                <nav class="hamburger-menu">
+                    <a href="#">ABOUT US</a>
+                    <a href="#">MENU</a>
+                    <a href="#">LOCATIONS</a>
                 </nav>
-             </div>
-             <div class="hero">
+                <i class="fa-solid fa-bars" style="color: #000000;"></i>
+            </div>
+
+            <div class="hero">
                 <h1>
                     Experience coffee like never before
                 </h1>
