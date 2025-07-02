@@ -19,6 +19,12 @@ h1, button, span {
 } */
 
 @media screen and (max-width:390px) {
+    h1 {
+        font-size: 32px;
+    }   
+    
+    
+
     .banner-img {
         position: relative;
         top: -110px;
@@ -32,8 +38,9 @@ h1, button, span {
     }
     .logo {
         position: absolute;
-        top: 1em;
+        top: 2em;
         left: 1em;
+
         }
 
 
@@ -47,12 +54,14 @@ h1, button, span {
     }
 
     .banner-img {
-        filter: brightness(50%)
+        filter: brightness(75%)
 
     }
 
     .hamburger-menu {
         display: none;
     }
+
+    
 
     }
