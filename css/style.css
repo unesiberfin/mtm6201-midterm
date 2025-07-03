@@ -35,6 +35,10 @@ h1, button, span {
         font-size: 1em;
     }
 
+    .container { 
+        padding: 0 5%;
+    }
+    
     .banner-img {
         position: relative;
         top: -110px;
@@ -93,5 +97,28 @@ h1, button, span {
         padding-bottom: 0.25em
     }
 
+ .welcome {
+        padding: 0 5%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .welcome-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 3;
+        
+    }
+
+    .welcome-img1 {
+        grid-row: 1;
+        grid-column: span 2 / 1;
+    }
+    
+    
+    .welcome-img2 {
+        grid-row: ;
+        grid-column: 1;
+    }
 
     }
