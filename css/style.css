@@ -151,9 +151,34 @@ h1, h2, h3, button, span {
         color: black;
     }
 
-    
+    .usp {
+        margin: 5em 0;
+    }
 
-    
+    .usp * {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: .25em;
+        gap: .75em;
+        text-align: center;
+    }
+
+    .usp-logo {
+        width: 10em;
+    }
+
+    .usp-cards{
+       padding: 2em 0;
+       display: flex;
+    }
+
+    .shop img {
+        position: relative;
+    }
+
+    .shop {
+        display: block;
     }
 
 
