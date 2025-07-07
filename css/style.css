@@ -60,21 +60,21 @@ h1, h2, h3, button, span {
     .navbar {
         display: block;
         border-bottom: solid white 1px;
-        }
+    }
 
     .logo {
         position: absolute;
         top: 2em;
         left: 1em;
         width: 15em;
-        }
+    }
     
     .fa-regular {
         position: absolute;
         top: 2em;
         right: 1em;
         width: 1em;
-        }
+    }
 
     .hero{
         position: absolute;
@@ -175,14 +175,19 @@ h1, h2, h3, button, span {
 
     .shop img {
         position: relative;
+        height: ;
+        
     }
 
     .shop {
         display: block;
+        position: relative;
+        
     }
 
+    .menu 
 
     
 
 
- 
+}
