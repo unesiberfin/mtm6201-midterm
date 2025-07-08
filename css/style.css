@@ -26,7 +26,6 @@ span, cite {
 } */
 
 
-@media screen and (max-width: 390px) {
     h1 {
     font-size: var(--fs-h1);
     }
@@ -48,59 +47,44 @@ span, cite {
     
     /* banner & navigation */
 
-    
-    .banner-img {
-        position: relative;
-        top: -130px;
-        filter: brightness(50%)
+    .nav{
+        width: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
     }
 
     .banner{
+        background: linear-gradient(rgba(0, 0, 0, 0.5)), url(/images/hero-background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
         text-align: center;
         color: var(--text-light);
-        /* height: 500px; */
-
-
+        display: flex;
+        flex-direction: column;
+        
     }
   
+    .navigation {
+        display: none;
+    }
 
     .logo {
         top: 2em;
         left: 1em;
         width: 15em;
     }
-    
-    nav {
-        position: absolute;
-        /* top: 1em; */
+
+    .navbar {
+        margin-top: 1em;
         display: flex;
         flex-direction: row;
-
-        
-    } 
-
-    .navigation {
-        display: none;
-    }
-
-
-    .fa-solid .fa-bars {
-        position: absolute;
-        top: 2em;
-        right: 1em;
-        width: 1em; 
+        justify-content: space-between;
+        border-bottom: white 1px solid; 
     }
     
-   
-    .hero{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 97%; /* 23.75em = 390px */
-        padding: 0.75em 1em;
-        top: 18em;
-    }
 
     /* welcome section */
     .welcome {
@@ -237,7 +221,7 @@ span, cite {
         display: flex;
         flex-direction: column;
         padding: 1em;
-        background-color: var(--bg-light);
+        background: var(--bg-light);
     }
 
     .about-us *{
@@ -254,25 +238,55 @@ span, cite {
 /* testimonials section */
    
     .testimonials {
-        background-color: var(--bg-dark);
-        
+        background: var(--bg-dark);
+        padding-top: 3em;
+        padding-bottom: 3em;
+   
     }
 
-    .testimonials div card-one {
+    .testimonials div cards {
         position: relative;
-        bottom: 180px;
+    }
+
+    .testimonials content {
+        position: absolute;
     }
 
     .testimonials h2, p {
         color: var(--text-light);
-
+        margin-bottom: 1em;
     }
     
     .testimonials cite {
         text-transform: uppercase;
+    }
+    
+
+    /* footer section */
+
+    footer {
+        background: var(--bg-dark);
+        padding-bottom: 5em;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    footer p {
+        color: var(--text-light);
+        border-top: solid 1px var(--text-light);
+        padding: 4em;
+        height: 100%;
+        font-size: 1em;
 
     }
 
+                                    /* Tablet Size */
+
+@media screen and (min-width: 768px), (max-width:1440){
+    
 
 
-}
+
+ }
+
