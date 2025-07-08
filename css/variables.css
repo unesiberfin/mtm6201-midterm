@@ -8,12 +8,6 @@
   --bg-light: #f3f0e9;
   --bg-dark: #000;
 
-  /* white button style */
-  --btn-white-padding: 0.5em 3px;
-  --btn-white-bg: #ffffff;
-  --btn-white-color: #000000;
-
-
   /* Typography scale */
   --fs-h1: clamp(2rem, 1.25rem + 2.5vw, 3.875rem); /* 32 → 48 → 62px */
   --fs-h2: clamp(1.75rem, 1.1rem + 2vw, 3rem);     /* 28 → 38 → 48px */
@@ -21,3 +15,45 @@
   --fs-p: clamp(1rem, 1rem, 1rem);                /* fixed 16px */
 }
 
+
+/* buttons */
+.button-primary {
+  background-color:  #ffffff;
+  color: black;
+}
+
+.button-primary:hover {
+  background:  #966F2C;
+  color: #ffffff;
+  border:solid white 1px;
+}
+
+.button-secondary {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border:solid white 1px;
+}
+
+.button-secondary:hover {
+  background: #966F2C;
+  color: #ffffff;
+  border:solid white 1px;
+}
+
+.button-tertiary {
+  color: rgb(255, 255, 255);
+  border:solid white 1px;
+}
+
+.button-tertiary:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+
+
+
+
+span cite D69E3D
+hover 966F2C
+--button-bg:  #966F2C;
