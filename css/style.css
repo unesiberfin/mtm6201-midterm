@@ -15,7 +15,7 @@ h1, h2, h3, button, span {
     text-transform: uppercase;
 }
 
- span {
+span {
         color: var(--accent);
         font-weight: 750;
     }
@@ -26,6 +26,7 @@ h1, h2, h3, button, span {
 } */
 
 
+@media screen and (max-width: 390px) {
     h1 {
     font-size: var(--fs-h1);
     }
@@ -40,11 +41,13 @@ h1, h2, h3, button, span {
     
     }
 
+    
+    .container { 
+            padding: 0 5%; 
+        }
+    
     /* banner & navigation */
 
-    .container { 
-        padding: 0 5%; 
-    }
     
     .banner-img {
         position: relative;
@@ -53,10 +56,11 @@ h1, h2, h3, button, span {
     }
 
     .banner{
-        color: #ffff; 
         text-align: center;
-        color: white;
+        color: var(-primary);
         /* height: 500px; */
+
+
     }
   
 
@@ -218,9 +222,17 @@ h1, h2, h3, button, span {
     
 
     .shop h2 {
-        color: white;
+        color: var(--primary);
     }
 
-    /* about us section */
+/* about us section */
+
+    .about-us {
+        display: flex;
+        flex-direction: column;
+    }
 
     
+
+
+}
