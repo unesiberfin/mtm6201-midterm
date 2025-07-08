@@ -43,46 +43,49 @@ span, cite {
     
     .container { 
             padding: 0 5%; 
+            
         }
     
     /* banner & navigation */
 
-    .nav{
-        width: 100vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        
+
+    .logo {
+        /* top: 2em;
+        left: 1em; */
+        width: 15em;
+    } 
+
+    nav {
+        margin-top: 3em;
     }
 
     .banner{
         background: linear-gradient(rgba(0, 0, 0, 0.5)), url(/images/hero-background.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        height: 100vh;
+        height: 160vh;
+        margin-top: -150px;
         text-align: center;
         color: var(--text-light);
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
         
     }
   
     .navigation {
         display: none;
-    }
-
-    .logo {
-        top: 2em;
-        left: 1em;
-        width: 15em;
+        
     }
 
     .navbar {
-        margin-top: 1em;
+        margin: 1em;
+        border-bottom: white 1px solid; 
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        border-bottom: white 1px solid; 
+        padding-bottom: 0.5em;
+        
     }
     
 
@@ -201,7 +204,7 @@ span, cite {
         text-transform: uppercase;
         font-weight: 700;
 
-    }
+    } 
     
 
     .shop h2 {
