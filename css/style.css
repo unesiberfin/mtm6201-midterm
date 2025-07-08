@@ -20,11 +20,9 @@ span, cite {
         font-weight: 750;
     }
 
-/* a {
+a {
     text-decoration: none;
-    list-style-type: none;
-} */
-
+} 
 
     h1 {
     font-size: var(--fs-h1);
@@ -43,38 +41,50 @@ span, cite {
     
     .container { 
             padding: 0 5%; 
-            
         }
     
+
     /* banner & navigation */
-
-
     .logo {
-        /* top: 2em;
-        left: 1em; */
         width: 15em;
     } 
 
     nav {
-        margin-top: 3em;
+        /* margin-top: 3em; */
+        padding-top: 9em;
     }
 
     .banner{
+        margin-top: -130px;
         background: linear-gradient(rgba(0, 0, 0, 0.5)), url(/images/hero-background.jpg);
-        background-size: cover;
+        background-size:cover;
         background-repeat: no-repeat;
-        height: 160vh;
-        margin-top: -150px;
-        text-align: center;
         color: var(--text-light);
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        
+        text-align: center;
+        /* height: 160vh; */
+        height: 600px;
+        width: 100%;
     }
   
+    .hero {
+        align-items: center;
+    }
+
+    .hero h1 {
+        padding-top: 1.5em;
+    }
+
+    /* .banner h1{
+        padding-top: 10%;
+
+    } */
+
     .navigation {
         display: none;
+    }
+
+    .fa-solid {
+        line-height: 1.75;
     }
 
     .navbar {
@@ -84,7 +94,6 @@ span, cite {
         flex-direction: row;
         justify-content: space-between;
         padding-bottom: 0.5em;
-        
     }
     
     .banner a {
@@ -105,7 +114,7 @@ span, cite {
     }
     .welcome h2 {
         padding-bottom: 1em;
-        
+        font-weight: 700;
     }
 
     .welcome-grid {
@@ -152,6 +161,7 @@ span, cite {
     }
     .usp {
         background: var(--bg-light);
+        padding-top: 3em;
     }
     
     .usp-logo {
@@ -222,7 +232,7 @@ span, cite {
         width: 100%;
         height: 23.5em;
         object-fit: cover;
-        
+        padding-top: 2em; 
     }
 
     .about-us {
@@ -233,40 +243,82 @@ span, cite {
     }
 
     .about-us *{
-        padding: 10px 0;
-
+        padding:  0;
+        
     }
     
     .about-us p {
         color: black;
+        padding-top: 1em;
     }
 
+    .about-us span {
+        padding-top: 2em;
+    }
+    
+    .about-us h2 {
+    font-weight: 700;
+    }
 
+    .about-us a {
+        padding: .5em 2em;
+        width: fit-content;
+        font-weight: 700;
+        font-size: 1.1em;
+    }
 
+    
 /* testimonials section */
    
     .testimonials {
         background: var(--bg-dark);
         padding-top: 3em;
         padding-bottom: 3em;
-   
     }
-
-    .testimonials div cards {
-        position: relative;
-    }
-
-    .testimonials content {
-        position: absolute;
-    }
-
-    .testimonials h2, p {
+    
+    .testimonials h2{
         color: var(--text-light);
         margin-bottom: 1em;
     }
-    
+
     .testimonials cite {
         text-transform: uppercase;
+        padding: 2em;
+    }
+
+    .testimonials p {
+        font-size: 1em;
+        color: var(--text-light);
+        margin-bottom: 1em;
+        padding: .75em 2em;
+    }
+    
+    .testimonials .card-one {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../images/testimonial-1.jpeg) center/cover;
+        }
+    
+    .testimonials .card-two {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../images/testimonial-2.jpeg) center/cover;
+        }
+    
+    .testimonials .card-three {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../images/testimonial-3.jpeg) center/cover;
+        }
+    
+    
+    .testimonials .cards{
+        padding-top: 100%;
+        padding-bottom: 2em;
+        margin-bottom: 1.5em;
+    }
+
+    .testimonials content {
+        position: relative;
+        height: 480px;
+        overflow: hidden;
+        display: flex;
+        align-items: flex-end;
+        /* padding: 2em; */
     }
     
 
@@ -293,8 +345,21 @@ span, cite {
 
 @media screen and (min-width: 768px), (max-width:1440){
     
+.hero {
+
+}
 
 
 
- }
+
+
+
+.welcome h2 {
+    width: 31.625em;
+}
+
+
+
+
+}
 
