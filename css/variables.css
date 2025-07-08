@@ -1,9 +1,10 @@
 :root {
-  --accent:
-  --accent-dark:
-  --bg-light:
+  --primary: #ffff; 
+  --accent: #d69e3d;
+  --accent-dark: #966f2c;
   --text-dark:
-  --text-light:
+  --text-light:;
+  --bg-color: #f3f0e9;
 }
 
 
