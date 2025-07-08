@@ -1,19 +1,18 @@
 :root {
+  --accent:
+  --accent-dark:
+  --bg-light:
+  --text-dark:
+  --text-light:
+}
+
+
+:root {
   --btn-white-padding: 0.5em 3px;
   --btn-white-bg: #ffffff;
   --btn-white-color: #000000;
 }
 
-.btn-white {
-  padding: var(--btn-rect-padding);
-  background-color: var(--btn-rect-bg);
-  color: var(--btn-rect-color);
-  border: var(--btn-rect-border);
-  font-size: 1rem;
-  font-weight: 500;
-  border-radius: 0; /* Rectangle shape */
-  cursor: pointer;
-}
 
 :root {
   /* Typography scale */
@@ -22,3 +21,4 @@
   --fs-h3: clamp(1.375rem, 0.85rem + 1.5vw, 2rem); /* 22 → 28 → 32px */
   --fs-p: clamp(1rem, 1rem, 1rem);                /* fixed 16px */
 }
+
