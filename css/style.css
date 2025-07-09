@@ -15,6 +15,7 @@ h1, h2, h3, button, span {
     text-transform: uppercase;
 }
 
+
 span, cite {
         color: var(--accent);
         font-weight: 750;
@@ -38,6 +39,22 @@ a {
     
     }
 
+    .skip-link {
+      position: fixed;
+      top: 50%;
+      left: 0;
+      transform-origin: left center;
+      background-color: var(--accent);
+      color: #fff;
+      padding: 0.5em 1em;
+      border-radius: 0 0 4px 4px;
+      writing-mode: sideways-lr; 
+      text-orientation: mixed;
+    }
+
+    .skip-link:focus {
+      left: 1rem;
+    }
     
     .container { 
             padding: 0 5%; 
@@ -64,7 +81,10 @@ a {
         width: 100%;
         
     }
-  
+
+    /* animation */
+    
+    
     .hero {
         align-items: center;
     }
@@ -522,7 +542,7 @@ a {
 /* about us */
 
     .about-us {
-        
+        padding: 5em;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
     }
@@ -546,5 +566,11 @@ a {
         grid-column: 6/12;
         grid-row: 1;
 
-     }
+    }
+
+    /* .about-us p:nth-child(4){
+        padding-bottom: 2em;
+    } */
+
+
 }
