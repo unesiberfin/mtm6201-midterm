@@ -39,5 +39,4 @@
   }
 
   #root, #__next {
-    isolation: isolate;
-  }
+    isolation: isolate;}

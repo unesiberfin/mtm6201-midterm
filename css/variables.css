@@ -1,9 +1,7 @@
 :root {
   /* colors */
-  --primary:; 
   --accent: #d69e3d;
   --accent-dark: #966f2c;
-  --text-dark:;
   --text-light:#ffffff;
   --bg-light: #f3f0e9;
   --bg-dark: #000;
@@ -17,6 +15,12 @@
 
 
 /* buttons */
+.hamburger{
+  background: transparent;
+  border: none;
+  color: white;
+}
+
 .button-primary {
   background-color:  #ffffff;
   color: black;
@@ -49,11 +53,3 @@
   background: #ffffff;
   color: #000000;
 }
-
-
-
-
-/* 
-span cite D69E3D
-hover 966F2C
---button-bg:  #966F2C; */

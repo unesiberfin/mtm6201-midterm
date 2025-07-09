@@ -57,15 +57,16 @@ a {
         transition: left 0.3s ease;
     }   
 
+    .container { 
+        padding: 0 5%; 
+        max-width: 1200px;
+        margin: auto;
+    }
+    
 
 
     .skip-link:focus {
         left: 0rem;
-    }
-    
-    .container { 
-        padding: 0 5%; 
-        max-width: 1200px;
     }
     
 
@@ -79,13 +80,12 @@ a {
     }
 
     .banner{
-        margin-top: -135px;
         background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/hero-background.jpg);
         background-size:cover;
         background-repeat: no-repeat;
         color: var(--text-light);
         text-align: center;
-        height: 40em;
+        height: 100vh;
         background-position: center 40%;  
     }
     
@@ -107,7 +107,7 @@ a {
     }
 
     .navbar {
-        margin: 1em;
+        padding: 1em;
         border-bottom: white 1px solid; 
         display: flex;
         flex-direction: row;
@@ -127,8 +127,11 @@ a {
 
 
     /* welcome section */
+    .main-content{
+    background: var(--bg-light);
+    }
+
     .welcome {
-        background: var(--bg-light);
         padding: 0 5%;
         text-align: left;
         width: 100%;
@@ -181,7 +184,6 @@ a {
         text-align: center;
     }
     .usp {
-        background: var(--bg-light);
         padding-top: 3em;
     }
     
@@ -254,14 +256,12 @@ a {
         object-fit: cover;
         padding-top: 2em; 
         
-    
     }
 
     .about-us {
         display: flex;
         flex-direction: column;
         padding: 1em;
-        background: var(--bg-light);
     }
 
     .about-us * {
@@ -434,8 +434,14 @@ a {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr 1fr;
-        gap: 1em; 
     }
+
+    .usp-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+
 
     .usp-one {
         grid-row: 1/2;
@@ -453,14 +459,14 @@ a {
         grid-column: 2/4;
     }
 
+    
+    /* menu and location - Tablet */
+    
     .shop div{
         display: block;
         text-align: center;
 
     }
-
-/* menu and location - Tablet */
-
     .shop {
         padding: 2em;
         text-align: center;
@@ -481,6 +487,7 @@ a {
     }
 
 /* about us section - tablet */
+
     .about-us{
         padding-bottom: 4em;
     }
@@ -489,7 +496,7 @@ a {
         padding-bottom: .5em;
     }
     
-    .about-us img {
+    .about-img {
         height: 100%;
         width: 100%;
      }
@@ -568,6 +575,7 @@ a {
 
     .navbar button, i {
         display: none;
+        background-color: none;
 
     }
 
@@ -621,23 +629,21 @@ a {
         grid-template-columns: repeat(12, 1fr);
     }
 
-    .about-us img {
-        width: 23.5em;
-        height: 23.5em;
-        object-fit:cover;
-        padding-top: 2em; 
-        aspect-ratio: 1 / 1;
-    }
+    .about-img {
+        height: 100%;
+        width: 100%;
+     }
 
-
-     .about-us .about-context {
+    .about-img {
         /* aspect-ratio: 1 / 1; */
-        grid-column: 1/6;
+        height: 100%;
+        width: 100%;
+        grid-column: 1 / 7;
         grid-row: 1;
      }
 
-     .about-us .about-context {
-        grid-column: 6/12;
+    .about-us .about-context {
+        grid-column: 7 / 13;
         grid-row: 1;
 
     }
@@ -651,27 +657,6 @@ a {
 
 
 
-.content{
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: auto;
-    }
-
-    .cards .card-one {
-        grid-column: span 4;
-        grid-row: 1 / 2;
-    }
-
-    .cards .card-two {
-        grid-column: span 4;
-        grid-row: 1 / 2;
-    }
-
-    .cards .card-three {
-        grid-column: span 4;
-        grid-row: 1 / 2;
-    }
-
     /* .about-us p:nth-child(4){
         padding-bottom: 2em;
     } */
@@ -680,6 +665,7 @@ a {
     .content {
      display: grid;
      grid-template-columns: repeat(12, 1fr);
+     grid-template-rows: 1fr;
     }
 
      .card-one {
@@ -703,7 +689,4 @@ a {
     }
 
 
-    .footer {
-        padding:;
-    }
 }
