@@ -79,11 +79,10 @@ a {
         padding-top: 9em;
     }
 
-    .banner{
-        background:
-  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-  url('../images/hero-background.jpg') center/cover no-repeat;
-
+     .banner{
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/images/hero-background.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
         color: var(--text-light);
         text-align: center;
         height: 80vh;
