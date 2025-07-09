@@ -90,7 +90,11 @@ a {
         justify-content: space-between;
         padding-bottom: 0.5em;
     }
-    
+    .banner p 
+    {
+        margin: 2em 0;
+    }
+
     .banner a {
         padding: .5em 2em;
         text-transform: uppercase;
