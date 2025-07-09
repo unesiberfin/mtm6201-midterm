@@ -65,6 +65,7 @@ a {
     
     .container { 
         padding: 0 5%; 
+        max-width: 1200px;
     }
     
 
@@ -354,6 +355,10 @@ a {
     
     }
 
+    footer span {
+        color: var(--text-light);
+    }
+
     footer p {
         color: var(--text-light);
         border-top: solid 1px var(--text-light);
@@ -561,8 +566,9 @@ a {
         border-bottom: black;
     }
 
-    .navbar i {
+    .navbar button, i {
         display: none;
+
     }
 
     .navigation {
@@ -698,6 +704,6 @@ a {
 
 
     .footer {
-        
+        padding:;
     }
 }
