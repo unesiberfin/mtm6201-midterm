@@ -85,7 +85,7 @@ a {
         background-repeat: no-repeat;
         color: var(--text-light);
         text-align: center;
-        height: 100vh;
+        height: 80vh;
         background-position: center 40%;  
     }
     
@@ -373,23 +373,13 @@ a {
 @media screen and (min-width: 768px) {
 
 /* banner - tablet */
-
-
-.banner {
-    max-height: 70%;
-    background-position: center 40%;  
-
-}
-
-.hero h1 {
-    padding: 1em 0 0 0;
-}
-
-
-.hero p{
-    padding: 1em 8em;
-
-}
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20%;
+    }    
 
 /* welcome section - Tablet */
 
