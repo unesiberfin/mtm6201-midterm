@@ -39,6 +39,46 @@ a {
     
     }
 
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .logo {
+        animation: fadeInDown 1s ease-out forwards;
+        opacity: 0;
+        }
+
+    .navbar {
+          animation: fadeInDown 1.2s ease-out forwards;
+          opacity: 0;
+        }
+
+    .hero h1 {
+          animation: fadeInUp 1.4s ease-out forwards;
+          opacity: 0;
+        }
+
+
+
+
     .skip-link {
         position: fixed;
         top: 50%;
