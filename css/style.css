@@ -517,6 +517,8 @@ a {
         grid-column: 2/4;
     } 
 
+/* footer - tablet */
+
     .footer p{
         padding: 1em 5em;
         
@@ -545,7 +547,6 @@ a {
 
     .banner nav{
         display: flex;
-        align-items: ;
         justify-content: space-between;
         align-items: center;
         border-bottom: solid 1px white;
@@ -612,7 +613,6 @@ a {
         padding: 5em;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        height: ;
     }
 
     .about-us img {
@@ -641,12 +641,63 @@ a {
         position: relative;
     }
 
+/* testimonials - desktop */
 
+
+
+.content{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: auto;
+    }
+
+    .cards .card-one {
+        grid-column: span 4;
+        grid-row: 1 / 2;
+    }
+
+    .cards .card-two {
+        grid-column: span 4;
+        grid-row: 1 / 2;
+    }
+
+    .cards .card-three {
+        grid-column: span 4;
+        grid-row: 1 / 2;
+    }
 
     /* .about-us p:nth-child(4){
         padding-bottom: 2em;
     } */
      
 
+    .content {
+     display: grid;
+     grid-template-columns: repeat(12, 1fr);
+    }
 
+     .card-one {
+        grid-column: span 4;
+        grid-row: 1;
+     }
+
+     .card-two{
+        grid-column: span 4;
+        grid-row: 1;
+     } 
+
+    .card-three{
+        grid-column: span 4;
+        grid-row: 1;
+
+    }
+    
+    .cards .card-one {
+        padding: 0 1em;
+    }
+
+
+    .footer {
+        
+    }
 }
