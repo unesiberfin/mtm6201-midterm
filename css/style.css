@@ -38,6 +38,7 @@ a {
     font-size: var(--fs-p);
     
     }
+/* animation starts */
 
     @keyframes fadeInUp {
       from {
@@ -76,10 +77,13 @@ a {
           opacity: 0;
         }
 
+    .button {
+        transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+/* animation ends */
+   
 
-
-
-    .skip-link {
+.skip-link {
         position: fixed;
         top: 50%;
         left: -999px; /* hide offscreen */
@@ -252,7 +256,7 @@ a {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/coffee-shop.jpeg);
         background-position: center;
         background-size: cover;
-        height: 100%;
+
     }
     
     .shop div {
